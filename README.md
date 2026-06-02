@@ -15,7 +15,7 @@
 
 ## 📌 Sobre o Projeto
 
-Dashboard financeiro desenvolvido durante o curso **Power BI: Análises Avançadas com DAX**, da Alura.
+Dashboard financeiro desenvolvido com base no curso **Power BI: Análises Avançadas com DAX**, da Alura.
 
 O objetivo do projeto foi construir uma solução analítica para monitoramento de receita, permitindo acompanhar o desempenho financeiro da empresa fictícia **Zoop Megastore**, com foco especial em:
 
