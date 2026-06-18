@@ -1,12 +1,13 @@
-# 📊 Análise Financeira Zoop
+# 📊 Análise Financeira e Comercial Zoop
 
 <p align="center">
-  <img src="./Assets/painel-receita.png" alt="Dashboard Receita Zoop" width="100%">
+  <img src="./Assets/painel-receita.png" alt="Dashboard Financeiro Zoop" width="100%">
+  <img src="./Assets/painel-clientes.png" alt="Dashboard Clientes Zoop" width="100%">
 </p>
 
 <p align="center">
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Advanced-blue?style=for-the-badge)
 ![Business Intelligence](https://img.shields.io/badge/Business%20Intelligence-Analytics-success?style=for-the-badge)
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Finance-orange?style=for-the-badge)
@@ -15,36 +16,72 @@
 
 ## 📌 Sobre o Projeto
 
-Dashboard financeiro desenvolvido com base no curso **Power BI: Análises Avançadas com DAX**, da Alura.
+Dashboard analítico desenvolvido com base no curso **Power BI: Análises Avançadas com DAX**, da Alura.
 
-O objetivo do projeto foi construir uma solução analítica para monitoramento de receita, permitindo acompanhar o desempenho financeiro da empresa fictícia **Zoop Megastore**, com foco especial em:
+O projeto foi criado para apoiar a tomada de decisão da empresa fictícia **Zoop Megastore**, reunindo indicadores financeiros e comerciais em dashboards interativos.
 
-- 📈 Evolução da receita ao longo do tempo;
-- 🌐 Participação do canal de vendas Online;
-- 💰 Impacto das vendas realizadas com descontos superiores a 15%;
-- 📊 Comparação entre receita atual e períodos anteriores;
-- 🎯 Identificação de tendências de crescimento.
+A solução permite analisar o desempenho do negócio sob diferentes perspectivas:
+
+* 📈 Evolução da receita ao longo do tempo;
+* 👥 Monitoramento da base de clientes ativos;
+* 🛒 Análise de pedidos e frequência de compra;
+* 🌐 Avaliação do desempenho dos canais de vendas;
+* 🏢 Comparação entre segmentos de mercado;
+* 🌎 Distribuição das vendas por região;
+* 🎯 Identificação de tendências de crescimento e oportunidades de negócio.
 
 ---
 
-## 🚀 Dashboard Principal
+## 🚀 Dashboards Desenvolvidos
 
-### Painel Receita
+### 📊 Dashboard Financeiro
 
-O dashboard central reúne indicadores estratégicos para análise financeira e acompanhamento de performance.
+<p align="center">
+  <img src="./Assets/painel-receita.png" alt="Dashboard Financeiro" width="100%">
+</p>
 
-### KPIs Disponíveis
+Painel voltado para acompanhamento da receita e indicadores financeiros da empresa.
 
-| Indicador | Objetivo |
-|------------|------------|
-| Receita Atual | Receita total do período selecionado |
-| Receita Anterior | Comparação com o período anterior |
-| % Participação na Receita | Representatividade da seleção atual |
-| Receita Atual da Seleção | Receita considerando os filtros aplicados |
-| Vendas Canal Online | Receita proveniente do canal online |
-| Vendas com +15% de Desconto | Receita gerada por vendas com descontos agressivos |
+#### KPIs Disponíveis
 
-### Recursos Interativos
+| Indicador                    | Objetivo                                           |
+| ---------------------------- | -------------------------------------------------- |
+| Receita Atual                | Receita total do período selecionado               |
+| Receita Ano Anterior         | Comparação com o período anterior                  |
+| Participação na Receita      | Representatividade da seleção atual                |
+| Receita Atual da Seleção     | Receita considerando filtros aplicados             |
+| Receita Canal Online         | Receita proveniente do canal online                |
+| Receita com +15% de Desconto | Receita gerada por vendas com descontos agressivos |
+| Crescimento da Receita       | Evolução percentual da receita                     |
+
+---
+
+### 👥 Dashboard Comercial e Clientes
+
+<p align="center">
+  <img src="./Assets/painel-clientes.png" alt="Dashboard Comercial e Clientes" width="100%">
+</p>
+
+Painel destinado à análise operacional das vendas, comportamento dos clientes e desempenho comercial.
+
+#### KPIs Disponíveis
+
+| Indicador             | Objetivo                                         |
+| --------------------- | ------------------------------------------------ |
+| Clientes Ativos       | Quantidade de clientes com movimentação          |
+| Pedidos no Ano        | Total de pedidos realizados                      |
+| Pedidos por Cliente   | Média de pedidos por cliente ativo               |
+| Pedidos por Segmento  | Distribuição dos pedidos por segmento            |
+| Frequência de Pedidos | Perfil de recorrência dos clientes               |
+| Top 10 Clientes       | Ranking dos clientes com maior faturamento       |
+| Pedidos por Região    | Distribuição geográfica das vendas               |
+| Desempenho por Canal  | Comparação entre faturamento e volume de pedidos |
+
+---
+
+## 🎛️ Recursos Interativos
+
+Os dashboards contam com recursos de exploração dinâmica para facilitar análises estratégicas:
 
 ✅ Filtro por Ano
 
@@ -56,23 +93,39 @@ O dashboard central reúne indicadores estratégicos para análise financeira e 
 
 ✅ Indicadores dinâmicos
 
+✅ Análise multidimensional
+
+✅ Navegação interativa por contexto de negócio
+
 ---
 
-## 📈 Principais Insights do Dashboard
+## 📈 Principais Insights Obtidos
 
-O painel permite responder perguntas de negócio como:
+Os painéis permitem responder perguntas estratégicas como:
 
-- Qual foi o crescimento da receita em relação ao ano anterior?
-- Quanto do faturamento é gerado pelo canal online?
-- Qual o impacto financeiro das vendas com descontos acima de 15%?
-- Quais períodos apresentaram maior crescimento ou retração?
-- Como a receita se comporta entre regiões e segmentos?
+### Financeiro
+
+* Qual foi o crescimento da receita em relação ao ano anterior?
+* Quanto do faturamento é gerado pelo canal online?
+* Qual o impacto financeiro das vendas com descontos acima de 15%?
+* Quais períodos apresentaram maior crescimento ou retração?
+* Como a receita se comporta entre regiões e segmentos?
+
+### Comercial e Clientes
+
+* Quais clientes geram maior faturamento?
+* Qual segmento concentra o maior volume de pedidos?
+* Como os pedidos estão distribuídos entre as regiões?
+* Qual canal apresenta melhor desempenho entre volume e faturamento?
+* Como se comporta a frequência de compra dos clientes?
+* Existe concentração de receita em poucos clientes?
+* Quais regiões apresentam maior potencial comercial?
 
 ---
 
 ## 🧠 Técnicas DAX Aplicadas
 
-Durante o desenvolvimento do projeto foram utilizadas funções avançadas para manipulação de contexto e inteligência temporal.
+Durante o desenvolvimento foram utilizadas funções avançadas para modelagem analítica e inteligência temporal.
 
 ### Inteligência Temporal
 
@@ -190,13 +243,14 @@ IF(
 Analise-Financeira-Zoop
 │
 ├── Dados
-│   └── zoop-dataset.csv
+│   └── zoop-dataset.xlsx
 │
 ├── Power BI
 │   └── analise-financeira-zoop.pbix
 │
-├── assets
-│   └── painel-receita.png
+├── Assets
+│   ├── painel-receita.png
+│   ├── painel-clientes.png
 │   └── painel-receita.mp4
 │
 └── README.md
@@ -206,16 +260,20 @@ Analise-Financeira-Zoop
 
 ## 🎯 Competências Demonstradas
 
-- Power BI
-- DAX Avançado
-- Business Intelligence
-- Data Analytics
-- Modelagem de Dados
-- KPIs Financeiros
-- Inteligência Temporal
-- Storytelling com Dados
-- Dashboards Interativos
-- Análise de Receita
+* Power BI
+* DAX Avançado
+* Business Intelligence
+* Data Analytics
+* Modelagem de Dados
+* KPIs Financeiros
+* KPIs Comerciais
+* Inteligência Temporal
+* Storytelling com Dados
+* Dashboards Interativos
+* Análise de Receita
+* Análise de Clientes
+* Segmentação de Mercado
+* Performance Comercial
 
 ---
 
@@ -237,6 +295,6 @@ Os dados utilizados neste projeto são fictícios e foram disponibilizados exclu
 
 **Vinicius Cunha**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/viniciuscunhadata)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge\&logo=linkedin)](https://linkedin.com/in/viniciuscunhadata)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?style=for-the-badge&logo=github)](https://github.com/vcbonani)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-black?style=for-the-badge\&logo=github)](https://github.com/vcbonani)
